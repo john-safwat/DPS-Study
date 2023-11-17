@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import pylab as py
 
 # define the time array and amplitude array for plotting the signal
 time = np.array([-1, 0, 1, 2])  # X-Ais
@@ -74,6 +73,5 @@ timeExpandPlot.stem(timeExpand, amplitude)
 # set plot tile above the plot
 plt.title("Expanded Plot")
 
-
 # Function From PyLab Package to Display the Plots Figure
-py.show()
+plt.show()
