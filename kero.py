@@ -10,11 +10,10 @@ for i in range(1, 100, 1):
     time += (1/sampleFrequency)
     iterations = np.append(iterations, time)
 
-signal = 10 * np.cos(250*iterations * np.pi)
-
+amplitude = 10 * np.cos(250 * iterations * np.pi)
 
 plt.figure("Signal")
-plt.plot(iterations, signal)
+plt.plot(iterations, amplitude)
 plt.title("Signal Plotting")
 plt.xlabel("Time")
 plt.ylabel("Amplitude")
